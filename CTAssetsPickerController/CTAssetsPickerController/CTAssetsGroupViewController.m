@@ -138,6 +138,8 @@
         self.navigationItem.rightBarButtonItem.enabled = YES;
     else
         self.navigationItem.rightBarButtonItem.enabled = (self.picker.selectedAssets.count > 0);
+    
+    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1]];
 }
 
 - (void)setupToolbar
